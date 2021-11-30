@@ -375,104 +375,26 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #Men {
   width: 100%;
-  height: 100vh;
   position: relative;
   background: url("../img/background1.jpg") top center;
   background-size: cover;
   position: relative; 
 }
-@media (min-width: 1024px) {
-  #Men {
-    background-attachment: fixed;
-  }
-}
-@media (max-height: 800px) {
-  #Men {
-    height: auto;
-  }
-}
-@media (max-width: 992px) {
-  #Men {
-    height: auto;
-  }
-  #Men h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #Men h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
+
 #Women {
-  width: 100%;
-  height: 100vh;
+  width: 100%; 
   position: relative;
   background: url("../img/background1.jpg") top center;
   background-size: cover;
   position: relative;
 }
-@media (min-width: 1024px) {
-  #Woman {
-    background-attachment: fixed;
-  }
-}
-@media (max-height: 800px) {
-  #Woman {
-    height: auto;
-  }
-}
-@media (max-width: 992px) {
-  #Women {
-    height: auto;
-  }
-  #Women h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #Women h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
+
 #Kid {
   width: 100%;
-  height: 100vh;
   position: relative;
   background: url("../img/background1.jpg") top center;
   background-size: cover;
   position: relative;
-}
-@media (min-width: 1024px) {
-  #Kid {
-    background-attachment: fixed;
-  }
-}
-@media (max-height: 800px) {
-  #Kid {
-    height: auto;
-  }
-}
-@media (max-width: 992px) {
-  #Kid {
-    height: auto;
-  }
-  #Kid h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #Kid h2 {
-    font-size: 18px;
-    line-height: 24px;
-  }
-}
-#products{
-  padding-left: 1cm;
-  padding-right: 1cm;
-  background:rgb(201, 145, 145);
-}
-.product-title{
-  color: rgb(139, 32, 32);
 }
 /* Float Shadow */
 .single-item {
