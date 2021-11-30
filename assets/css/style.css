@@ -382,24 +382,24 @@ h1, h2, h3, h4, h5, h6 {
   position: relative; 
 }
 @media (min-width: 1024px) {
-  #hero {
+  #Men {
     background-attachment: fixed;
   }
 }
 @media (max-height: 800px) {
-  #hero {
+  #Men {
     height: auto;
   }
 }
 @media (max-width: 992px) {
-  #hero {
+  #Men {
     height: auto;
   }
-  #hero h1 {
+  #Men h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #Men h2 {
     font-size: 18px;
     line-height: 24px;
   }
@@ -413,24 +413,24 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 @media (min-width: 1024px) {
-  #hero {
+  #Woman {
     background-attachment: fixed;
   }
 }
 @media (max-height: 800px) {
-  #hero {
+  #Woman {
     height: auto;
   }
 }
 @media (max-width: 992px) {
-  #hero {
+  #Women {
     height: auto;
   }
-  #hero h1 {
+  #Women h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #Women h2 {
     font-size: 18px;
     line-height: 24px;
   }
@@ -444,24 +444,24 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 @media (min-width: 1024px) {
-  #hero {
+  #Kid {
     background-attachment: fixed;
   }
 }
 @media (max-height: 800px) {
-  #hero {
+  #Kid {
     height: auto;
   }
 }
 @media (max-width: 992px) {
-  #hero {
+  #Kid {
     height: auto;
   }
-  #hero h1 {
+  #Kid h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #Kid h2 {
     font-size: 18px;
     line-height: 24px;
   }
