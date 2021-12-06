@@ -260,13 +260,13 @@ nav .search_box{
   width: 100%;
   height: 100vh;
   position: relative;
-  background: url("../img/background1.jpg") top center;
+  background: url("") top center;
   background-size: cover;
   position: relative;
 }
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(170, 167, 167, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -305,10 +305,10 @@ nav .search_box{
 #hero .btn-get-started:hover {
   background: #3194db;
 }
-#hero .icon-boxes {
+#hero .logo-boxes {
   margin-top: 100px;
 }
-#hero .icon-box {
+#hero .logo-box {
   padding: 50px 30px;
   position: relative;
   overflow: hidden;
@@ -318,21 +318,21 @@ nav .search_box{
   border-radius: 8px;
   z-index: 1;
 }
-#hero .icon-box .title {
+#hero .logo .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
 }
-#hero .icon-box .title a {
+#hero .logo .title a {
   color: #124265;
   transition: 0.3s;
 }
-#hero .icon-box .description {
+#hero .logo-box .description {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
 }
-#hero .icon-box .icon {
+#hero .logo-box .icon {
   margin-bottom: 20px;
   padding-top: 10px;
   display: inline-block;
@@ -341,10 +341,10 @@ nav .search_box{
   line-height: 1;
   color: #2487ce;
 }
-#hero .icon-box:hover {
+#hero .logo-box:hover {
   transform: scale(1.08);
 }
-#hero .icon-box:hover .title a {
+#hero .logo-box:hover .title a {
   color: #2487ce;
 }
 @media (min-width: 1024px) {
@@ -377,27 +377,22 @@ nav .search_box{
 #Men {
   width: 100%;
   position: relative;
-  background: url("../img/background1.jpg") top center;
-  background-size: cover;
-  position: relative; 
+  background: rgb(124, 123, 123)
 }
 
 #Women {
   width: 100%;
   position: relative;
-  background: url("../img/background1.jpg") top center;
-  background-size: cover;
-  position: relative;
+  background: rgb(124, 123, 123)
 }
 
 #Kid {
   width: 100%;
   position: relative;
-  background: url("../img/background1.jpg") top center;
-  background-size: cover;
-  position: relative;
+  background: rgb(124, 123, 123)
+
 }
-/* Float Shadow */
+/* Shadow */
 .single-item {
  display: inline-block;
  vertical-align: middle;
@@ -418,7 +413,6 @@ nav .search_box{
  height:10px;
  width: 90%;
  opacity: 0;
- background: radial-gradient(ellipse at center, rgb(15, 15, 15) 0%, rgba(248, 247, 247, 0.986) 80%);
  transition-duration: 0.3s;
  transition-property: transform, opacity;
 }
@@ -431,6 +425,7 @@ nav .search_box{
  transform: translateY(5px);
 
 }
+
 .img-container{
  height: 250px;
  width: 250px;
@@ -527,13 +522,7 @@ section {
   background: #2487ce;
   color: rgb(14, 9, 9);
 }
-.contact .php-email-form {
-  width: 100%;
-  background: #fff;
-}
-.contact .php-email-form .form-group {
-  padding-bottom: 8px;
-}
+
 
 
 @-webkit-keyframes animate-loading {
