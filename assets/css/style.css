@@ -133,9 +133,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #16507b;
 }
 #header .icon img {
-  max-height: 50px;
+  max-height: 40px;
 }
-@media (max-width: 992px) {
+@media (max-width: 926px) {
   #header .logo {
     font-size: 28px;
   }
