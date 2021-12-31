@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .icon img {
   max-height: 40px;
 }
-@media (max-width: 926px) {
+@media (max-width: 915px) {
   #header .logo {
     font-size: 28px;
   }
